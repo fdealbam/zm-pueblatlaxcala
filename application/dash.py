@@ -12,8 +12,8 @@ entidades_p= pd.read_csv("https://raw.githubusercontent.com/fdealbam/censo2020/m
 
 
 # Falta un identificador de la base 1) entidad 2)mpios
-df = entidades_s[entidades_s.NOM_ZM == "Monterrey"]
-df_p = entidades_p[entidades_p.NOM_ZM == "Monterrey"]
+df = entidades_s[entidades_s.NOM_ZM == "Puebla-Tlaxcala"]
+df_p = entidades_p[entidades_p.NOM_ZM == "Puebla-Tlaxcala"]
 
 
 noment = df.iloc[0]["NOM_ZM"]
