@@ -1846,7 +1846,7 @@ body = html.Div([
     dbc.Row(
            [   #mapa de la entidad 
                
-            dbc.Col(dbc.Button(dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/1b4035d7f8e8561f02b23b9827578bd64d0b26b3/1zmpueblatlaxcala.png?raw=true"),
+            dbc.Col(dbc.Button(dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/main/application/static/mapas/map_Puebla-Tlaxcala.png?raw=true"),
                                style={"background-color": "transparent"}),
                       md={"size": 3,},
                       style= {
